@@ -3,17 +3,22 @@ set(libname shapes)
 
 set(shapessource
     quad.cpp
+    triangle.cpp
 )
 
 set(shapesinclude
     shapesexport.h
     quad.h
+    triangle.h
 )
 
 set(shapesprivate
     quad_gl_p.h
     quad_interface.h
     quadimpl_p.h
+    triangle_gl_p.h
+    triangle_interface.h
+    triangleimpl_p.h
 )
 
 

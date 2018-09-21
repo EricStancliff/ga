@@ -23,7 +23,7 @@
 namespace ga 
 {
 namespace {
-constexpr unsigned long ALL_EVENTS_MASK =
+constexpr long ALL_EVENTS_MASK =
     ButtonPressMask |
     ButtonReleaseMask |
     EnterWindowMask |
